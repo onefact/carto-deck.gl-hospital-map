@@ -12,6 +12,14 @@ See a map of the hospitals here for what to expect: https://colab.research.googl
 
 This repo was built using the following command: `npm create vite@latest vite-react` with React and JavaScript.
 
+Run the example with 
+
+`yarn`
+
+Followed by:
+
+`yarn dev`
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

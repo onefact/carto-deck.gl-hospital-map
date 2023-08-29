@@ -3,9 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Test from './carto-sql/app.jsx'
-// import Demo from './carto';
-import Hospitals from './newyork/app.jsx'
+// import Test from './carto-sql/app.jsx'
+import Demo from './carto';
+import HospitalsDemo from './hospitals';
+// import NewYork from './newyork/app.jsx'
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Payless Health Maps</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -31,8 +32,9 @@ function App() {
         </p>
       </div>
       {/* <Demo /> */}
+      <HospitalsDemo />
       {/* <Test /> */}
-      <Hospitals />
+      {/* <NewYork /> */}
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>

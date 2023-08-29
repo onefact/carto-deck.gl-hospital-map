@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 import {isMobile} from '../common';
 
+// https://github.com/facebookincubator/infima/blob/main/packages/core/styles/common/variables-dark.pcss
 export const PanelContainer = styled.div`
   font-size: 14px;
   position: absolute;
   top: 0;
   right: 0;
   width: 344px;
-  background: var(--ifm-background-surface-color);
+  background: #242526;
   box-shadow: var(--ifm-global-shadow-lw);
   margin: 24px;
   padding: 10px 24px;
@@ -53,7 +54,7 @@ export const PanelTitle = styled.div`
 
 export const PanelContent = styled.div`
   div > * {
-    vertical-align: middle;
+    vertical-align: left;
     white-space: nowrap;
   }
   div > label {
