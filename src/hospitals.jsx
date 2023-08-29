@@ -26,7 +26,7 @@ const PROCEDURE_NAMES = {
 class CartoSQLDemo extends Component {
   static title = 'Hospitals in the New York Metropolitan area';
 
-  static code = `carto-sql`;
+  static code = 'https://github.com/onefact/carto-deck.gl-hospital-map';
 
   static parameters = {
     index: {
